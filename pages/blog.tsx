@@ -1,5 +1,4 @@
 
-
 import type { NextPage } from "next";
 import BlogPost from "../components/BlogPost";
 import Container from "../components/Container";
