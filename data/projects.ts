@@ -2,17 +2,31 @@ import { Project } from '../lib/types'
 
 const projects: Project[] = [
     {
-    title: 'miryang.dev',
+    title: '💻 hanlog.dev',
     description: 'My personal website written with Next.js, MDX, Emotion, Vercel',
-    url: 'https://github.com/',
+    url: 'https://github.com/ihanchoi/blog-han.dev/',
     image: '/projects/cat.gif',
     },
 
     {
-    title: 'XXIT 스트리트 데브 우먼 파이터',
-    description: 'XXIT에서 주최하는 스데파 세미나에서 개발자의 외주라는 주제로 발표했습니다.',
-    url: 'https://twitter.com/',
+    title: '🌊 PaDo: Education application',
+    description: '학생, 교육자를 위한 자기주도학습 어플리케이션',
+    url: 'https://youtu.be/2LjeGA071xE',
     image: '/projects/dog.gif',
+    },
+
+    {
+    title: '💊 Smart Pill Dispenser',
+    description: '환자와 의료진을 위한 스마트 디스펜서',
+    url: 'https://youtu.be/2LjeGA071xE',
+    image: '/projects/penguin.gif',
+    },
+
+    {
+    title: '🍾 Soju Study',
+    description: 'Frontend development challenge',
+    url: 'https://youtu.be/9qRCARM_LfE',
+    image: '/projects/otter.gif',
     },
 ]
 

@@ -26,9 +26,9 @@ render() {
                 <link href="/static/favicon.ico" rel="shortcut icon" /> */}
         </Head>
         <body>
-        <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
-        <Main />
-        <NextScript />
+            <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
+            <Main />
+            <NextScript />
         </body>
         </Html>
     )
