@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Container from "../components/Container";
 import Image from "next/image";
-import RecentPosts from "../components/RecentPosts";
+import RecentPosts from "../components/RecentPost";
 import metadata from "../data/metadata";
 import { allPosts } from "contentlayer/generated";
 import { InferGetStaticPropsType } from "next";
@@ -23,7 +23,7 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
           <span
             className={`absolute top-12 font-extrabold italic text-white text-5xl md:text-9xl text flex justify-center w-full drop-shadow-lg`}
           >
-            {metadata.title}
+            {metadata.home.name}
           </span>
         </div>
         <RecentPosts posts={posts} />
