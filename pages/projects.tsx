@@ -9,8 +9,8 @@ function Projectspage() {
     return (
     <Container>
         <NextSeo
-        title="Projectssdfs"
-        description="울랄랄."
+        title="Projects"
+        description="사이드프로젝트들을 기록합니다."
         canonical={`${metadata.meta.url}/projects`}
         openGraph={{ url: `${metadata.meta.url}/projects` }}
         />
