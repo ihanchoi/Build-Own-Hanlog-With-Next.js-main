@@ -8,7 +8,7 @@ function Aboutpage() {
     return (
     <Container>
         <NextSeo
-        title="About"
+        title="About Me" 
         canonical={`${metadata.meta.url}/about`}
         openGraph={{ url: `${metadata.meta.url}/about` }}
         />
