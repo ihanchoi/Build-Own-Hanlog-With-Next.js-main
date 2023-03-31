@@ -28,7 +28,7 @@ export const ProfileTextSub = styled.span`
 `
 
 export const Resume = styled.button`
-    padding: 10px 30px;
+    padding: 5px 30px;
     background: var(--bg-sub);
     color: var(--tx-accent-light);
     font-weight: 500;
@@ -37,6 +37,6 @@ export const Resume = styled.button`
     border-radius: 10px;
     cursor: pointer;
     &:hover {
-    background: var(--tx-accent);
+        background: var(--tx-accent);
     }
 `

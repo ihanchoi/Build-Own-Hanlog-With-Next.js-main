@@ -35,9 +35,9 @@ type tContent = {
     }
     
     const resume: tResume = {
-    name: '정미량',
+    name: 'IHan Choi',
     job: 'Frontend Engineer',
-    contact: 'Email: miryang.dev@gmail.com',
+    contact: 'Email: ihanchoi.dev@gmail.com',
     about: [
         '개발자로 스타트업에서 프론트엔드 개발을 하고 있습니다.',
         '반복되는 프로세스를 자동화하고,  업무 효율을 높이는 일을 좋아합니다.',
@@ -72,16 +72,17 @@ type tContent = {
             techHighlight: ['React', 'Emotion', 'Redux'],
             link: null,
             },
-            {
-            title: '플러스알파고',
-            description: '코인 자동매매 프로그램 홍보 페이지입니다.',
-            do: ['모바일, 테블릿까지 대응한 반응형', 'Styled Component를 사용헤 컴포넌트 재사용'],
-            tech: ['Typescript', 'TSX', 'Git', 'Github', 'CSS', 'Redux', 'ESLint', 'Prettier'],
-            techHighlight: ['React', 'Emotion'],
-            link: 'https://plusalphago.com',
-            },
+            // {
+            // title: '플러스알파고',
+            // description: '코인 자동매매 프로그램 홍보 페이지입니다.',
+            // do: ['모바일, 테블릿까지 대응한 반응형', 'Styled Component를 사용헤 컴포넌트 재사용'],
+            // tech: ['Typescript', 'TSX', 'Git', 'Github', 'CSS', 'Redux', 'ESLint', 'Prettier'],
+            // techHighlight: ['React', 'Emotion'],
+            // link: 'https://plusalphago.com',
+            // },
         ],
         },
+        /*
         {
         company: '라온스토리',
         position: 'FullStack Engineer',
@@ -134,6 +135,7 @@ type tContent = {
             },
         ],
         },
+        
         {
         company: 'AiRISS',
         position: 'FullStack Engineer',
@@ -227,7 +229,7 @@ type tContent = {
             link: null,
             },
         ],
-        },
+        }, */
     ],
     otherExperience: [
         {
@@ -274,18 +276,28 @@ type tContent = {
         ],
         },
         {
-        name: '자격증',
+        name: 'Language Skills',
         content: [
             {
-            title: 'ISO 27001 Lead Auditor Course',
+            title: 'English - Professional', // OPIC AL(Advanced Low)
             url: null,
             },
             {
-            title: '리눅스마스터 2급',
+            title: 'Korean - Native',
             url: null,
             },
         ],
         },
+
+        {
+            name: 'Certifications',
+            content: [
+                {
+                title: 'OPIC AL(Advanced Low',
+                url: null,
+                },
+            ],
+            },
     ],
     skill: [
         {
