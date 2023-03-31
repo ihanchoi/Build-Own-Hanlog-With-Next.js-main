@@ -12,10 +12,10 @@ function Aboutpage() {
         canonical={`${metadata.meta.url}/about`}
         openGraph={{ url: `${metadata.meta.url}/about` }}
         />
-        <Title title="About" des="Let me introduce myself." />
+        <Title title="About Me" des="Hello, stranger 👋" />
         <AboutProfile />
     </Container>
     )
 }
 
-export default Aboutpage
+export default Aboutpage 
