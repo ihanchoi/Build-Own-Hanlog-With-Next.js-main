@@ -19,9 +19,9 @@ function ResumeLayout() {
         />
         <ResumeContent>
         <ResumeAbout />
-        <ResumeTitle title={'👩🏻‍💻 Experience.'} />
+        <ResumeTitle title={'👻 Experiences.'} />
         <ResumeCard />
-        <ResumeTitle title={'💻 Other Experience.'} />
+        <ResumeTitle title={'💻 Other Experiences.'} />
         <ResumeOtherExCard />
         <ResumeTitle title={'⚒️ Skills.'} />
         <ResumeSkillCard />
