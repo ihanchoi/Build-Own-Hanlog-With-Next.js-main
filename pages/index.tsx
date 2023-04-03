@@ -1,11 +1,13 @@
-import type { NextPage } from "next";
+// import type { NextPage } from "next";
 import Container from "../components/Container";
-import Image from "next/image";
-import RecentPosts from "../components/RecentPost";
-import metadata from "../data/metadata";
-import { allPosts } from "contentlayer/generated";
+// import Image from "next/image";
+import RecentPost from "../components/RecentPost";
+// import metadata from "../data/metadata";
+import { allBlogs } from "contentlayer/generated";
 import { InferGetStaticPropsType } from "next";
+import dynamic from "next/dynamic";
 
+/*
 const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
   return (
     <Container>
@@ -31,9 +33,29 @@ const Home = ({ posts }: InferGetStaticPropsType<typeof getStaticProps>) => {
     </Container>
   );
 };
+*/
+
+const HomeProfile = dynamic(() => import('../components/HomeProfile'), {
+  ssr: false,
+})
+
+function Homepage({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
+  return (
+    <Container>
+      <>
+        <HomeProfile />
+        {posts.length >= 5 ? (
+          <RecentPost posts={posts.slice(0, 5)} />
+        ) : (
+          <RecentPost posts={posts} />
+        )}
+      </>
+    </Container>
+  )
+}
 
 export const getStaticProps = async () => {
-  const posts = allPosts.sort(
+  const posts = allBlogs.sort(
     (a, b) => Number(new Date(b.date)) - Number(new Date(a.date))
   );
   return {
@@ -43,4 +65,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Home;
+export default Homepage;
