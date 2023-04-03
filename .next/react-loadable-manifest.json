@@ -1,0 +1,14 @@
+{
+  "../components/Container.tsx -> ../components/Header": {
+    "id": "../components/Container.tsx -> ../components/Header",
+    "files": [
+      "static/chunks/components_Header_tsx.js"
+    ]
+  },
+  "index.tsx -> ../components/HomeProfile": {
+    "id": "index.tsx -> ../components/HomeProfile",
+    "files": [
+      "static/chunks/components_HomeProfile_tsx.js"
+    ]
+  }
+}
