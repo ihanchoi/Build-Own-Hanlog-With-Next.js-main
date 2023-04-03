@@ -19,7 +19,7 @@ function ResumeLayout() {
         />
         <ResumeContent>
         <ResumeAbout />
-        <ResumeTitle title={'👻 Experiences.'} />
+        <ResumeTitle title={'👻 Experiences.'} /> 
         <ResumeCard />
         <ResumeTitle title={'💻 Other Experiences.'} />
         <ResumeOtherExCard />
