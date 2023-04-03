@@ -40,7 +40,7 @@ function BlogLayout({ post }) {
             components={
             {
                 a: BlankLink,
-            } as any
+            }   as any
             }
         />
         </MDXPost>
