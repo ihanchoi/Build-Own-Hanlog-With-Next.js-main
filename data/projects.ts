@@ -1,6 +1,6 @@
 import { Project } from '../lib/types'
 
-const projects: Project[] = [
+const projects: Project[] = [  // 프로젝트 리스트 추가 
     {
     title: '💻 hanlog.dev',
     description: 'My personal website written with Next.js, MDX, Emotion, Vercel',
