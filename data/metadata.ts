@@ -3,23 +3,24 @@ const metadata = {
   // title: 'Hanlog',
   meta: {
     url: 'https://hanlog.dev',
-    title: 'IHan | Frontend Engineer',
+    title: 'IHAN | Frontend Engineer',
     description: 'Passionate Frontend Engineer who likes to travel',
     twitter: '@twittername',
   },
   author: 'IhanChoi',
   home: {
-    name: 'Ihan Choi', // 홈 화면 사진 타이틀 
-    description: 'Passionate Frontend Engineer who likes to travel',
+    name: 'IHAN', // 홈 화면 사진 타이틀 
+    description: 'Passionate Frontend Engineer who likes to travel all over the world',
   },
   social: {
     github: 'https://github.com/ihanchoi',
     twitter: 'https://twitter.com/',
     linkedin: 'https://www.linkedin.com/',
     velog: 'https://velog.io/@pioneerhan',
-    // facebook: '',
-    // instagram: '',
-    rss: 'https://hanlog.dev/feed.xml',
+    facebook: '',
+    instagram: '',
+    rss: 'https://hanlog.dev/',
+    // rss: 'https://hanlog.dev/feed.xml',
   },
   giscus: {
     id: 'IHanChoi',
