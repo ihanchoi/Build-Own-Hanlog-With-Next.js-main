@@ -1,4 +1,5 @@
-import { Giscus } from '@giscus/react'
+// import { Giscus } from '@giscus/react'
+import Giscus from '@giscus/react'
 import metadata from 'data/metadata'
 import { GiscusAreaContainer } from './GiscusArea.style'
 

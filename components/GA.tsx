@@ -1,5 +1,5 @@
-// import Script from 'next/script'
-// import metadata from '../data/metadata'
+import Script from 'next/script'
+import metadata from '../data/metadata'
 
 // const GA = () => {
 //     return (
