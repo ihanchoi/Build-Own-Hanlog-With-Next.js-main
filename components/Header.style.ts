@@ -26,7 +26,7 @@ export const Group = styled.div`
 `
 
 export const ThemeModeImage = styled.img`
-    height: 30px;
+    height: 40px; // light/dark mode png size 
     width: auto;
     object-fit: contain;
     cursor: pointer;
