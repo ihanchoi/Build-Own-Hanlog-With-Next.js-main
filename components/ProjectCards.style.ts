@@ -41,7 +41,7 @@ export const ProjectCardTitle = styled.span`
     font-weight: 500;
     font-size: 24px;
     word-break: keep-all;
-    color: black; // projet title text color 
+    color: white; // projet title text color 
 `
 
 export const ProjectCardDes = styled.span`
@@ -49,5 +49,5 @@ export const ProjectCardDes = styled.span`
     font-size: 16px;
     word-break: keep-all;
     margin-top: 20px;
-    color: black; // project description text color 
+    color: white; // project description text color 
 `
